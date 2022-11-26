@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("SNOOP HUB 2022 pour l'un de mes meilleurs clients Olivier", "DarkTheme")
+local Window = Library.CreateLib("SNOOP HUB 2022 pour l'un de mes meilleurs clients Olivier", "Ocean")
 
 -- MAIN
 local Code = Window:NewTab("Code")
@@ -12476,10 +12476,9 @@ HubSection:NewButton("Eclipse Hub", "MM2, Bloxburg, KAT, Breaking point, etc..."
     local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth"c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
 end)
 
-HubSection:Newbutton("V HUB", "MULTI UNIVERSE HUB", function()
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/itsyaboivincentt5315/V1.23/main/VHub'),true))()
+HubSection:NewButton("V HUB", "MULTI HUB", function()
+     loadstring(game:HttpGet(('https://raw.githubusercontent.com/itsyaboivincentt5315/V1.23/main/VHub'),true))()
 end)
-
 
 --TAILLE
 local Taille = Window:NewTab("Taille")
@@ -12706,7 +12705,11 @@ Humanoid:FindFirstChild("HeadScale"):Destroy()
 wait(1)
 end)
 
-TailleSection:NewButton("Petit", "Minuscule", function()
+TailleSection:NewButton("tete géante", "GROS CERVEAU", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/sysGhost-aka-BiKode/BigHeadV2/main/BigHeadV2-r15", true))()
+end)
+
+TailleSection:NewButton("MicrobeLVL1", "Minuscule", function()
     local LocalPlayer = game:GetService("Players").LocalPlayer
 local Character = LocalPlayer.Character
 local Humanoid = Character:FindFirstChildOfClass("Humanoid")
@@ -12748,6 +12751,98 @@ wait(0.2)
 
 rm()
 wait(0.5)
+end)
+
+TailleSection:NewButton("MicrobeLVL2", "Minuscule", function()
+    local LocalPlayer = game:GetService("Players").LocalPlayer
+local Character = LocalPlayer.Character
+local Humanoid = Character:FindFirstChildOfClass("Humanoid")
+
+local function rm()
+ for i,v in pairs(Character:GetDescendants()) do
+  if v:IsA("BasePart") then
+   if v.Name ~= "Head" then
+    for i,cav in pairs(v:GetDescendants()) do
+     if cav:IsA("Attachment") then
+      if cav:FindFirstChild("OriginalPosition") then
+       cav.OriginalPosition:Destroy()
+      end
+     end
+    end
+    v:FindFirstChild("OriginalSize"):Destroy()
+    if v:FindFirstChild("AvatarPartScaleType") then
+     v:FindFirstChild("AvatarPartScaleType"):Destroy()
+    end
+   end
+  end
+ end
+end
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("BodyTypeScale"):Destroy()
+wait(0.2)
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("BodyWidthScale"):Destroy()
+wait(0.2)
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("k"):Destroy()
+wait(0.2)
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("j"):Destroy()
+wait(0.2)
+end)
+
+TailleSection:NewButton("MicrobeLVL3", "Minuscule", function()
+    local LocalPlayer = game:GetService("Players").LocalPlayer
+local Character = LocalPlayer.Character
+local Humanoid = Character:FindFirstChildOfClass("Humanoid")
+
+local function rm()
+ for i,v in pairs(Character:GetDescendants()) do
+  if v:IsA("BasePart") then
+   if v.Name ~= "Head" then
+    for i,cav in pairs(v:GetDescendants()) do
+     if cav:IsA("Attachment") then
+      if cav:FindFirstChild("OriginalPosition") then
+       cav.OriginalPosition:Destroy()
+      end
+     end
+    end
+    v:FindFirstChild("OriginalSize"):Destroy()
+    if v:FindFirstChild("AvatarPartScaleType") then
+     v:FindFirstChild("AvatarPartScaleType"):Destroy()
+    end
+   end
+  end
+ end
+end
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("BodyTypeScale"):Destroy()
+wait(0.2)
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("BodyWidthScale"):Destroy()
+wait(0.2)
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("BodyDepthScale"):Destroy()
+wait(0.2)
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("j"):Destroy()
+wait(0.2)
 end)
 
 
@@ -21403,14 +21498,140 @@ while runservice["Heartbeat"]:Wait() do
     limbs["Left Leg"].CFrame=character["HumanoidRootPart"].CFrame*CFrame.new(-1,-2,0);
     limbs["Right Leg"].CFrame=character["HumanoidRootPart"].CFrame*CFrame.new(1,-2,0);
     limbs["Left Arm"].CFrame=character["Left Leg"].CFrame*CFrame.new(-1,-2,0);
-    limbs["Right Arm"].CFrame=character["Right Leg"].CFrame*CFrame.new(1,-4,0);
+    limbs["Right Arm"].CFrame=character["Right Leg"].CFrame*CFrame.new(1,-2,0);
 end
 end)
 
-NetlessSection:NewButton("le Serpent (R6 et R15)", "KSSSS", function()
+NetlessSection:NewButton("Le serpent (R6 et R15)", "KSSS", function()
     loadstring(game:HttpGet(('https://pastefy.ga/tWBTcE4R/raw'),true))()
 end)
 
-NetlessSection:NewButton("Le Creeper (R6 et R15)", "BOOOOOM", function()
-    loadstring(game:HttpGet(('https://pastefy.ga/Kqi7ZcbX/raw'),true))()
+NetlessSection:NewButton("Creeper (R6 et R15)", "BOOOOM", function()
+    loadstring(game:HttpGet(('https://pastefy.ga/tWBTcE4R/raw'),true))()
+end)
+
+NetlessSection:NewButton("corps de bite cheloue (R6 UTILISE LA REA)", "coucou", function()
+    local plr = game.Players.LocalPlayer
+game:GetService("RunService").Stepped:Connect(function()
+   setsimulationradius(9e9,9e9)
+   plr.ReplicationFocus = workspace
+   settings().Physics.AllowSleep = false
+end)
+
+local runservice=game:service"RunService";
+local player=game:service"Players"["LocalPlayer"];
+local character=player["Character"];
+
+
+character["Humanoid"].HipHeight=0;
+character["Left Leg"]:BreakJoints();
+character["Right Leg"]:BreakJoints();
+character["Left Arm"]:BreakJoints();
+character["Right Arm"]:BreakJoints();
+while runservice["Heartbeat"]:Wait() do
+    character["Left Leg"].CFrame=character["HumanoidRootPart"].CFrame*CFrame.new(1,-1.5,0);
+    character["Right Leg"].CFrame=character["HumanoidRootPart"].CFrame*CFrame.new(-1,-1.5,0);
+    character["Left Arm"].CFrame=character["HumanoidRootPart"].CFrame*CFrame.new(0,5,0);
+    character["Right Arm"].CFrame=character["HumanoidRootPart"].CFrame*CFrame.new(0,3,0);
+end
+end)
+
+NetlessSection:NewButton("Le tank (R6)", "Dans les fesses", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/arko34920v2/TANKULATOR/main/TANKMORPHS'))()
+end)
+
+NetlessSection:NewButton("la mouche (mettre l'id de la mouche dans icehub)", "bzzzzzz", function()
+    local speed = 10
+
+local lp = game:GetService("Players").LocalPlayer
+local c = lp.Character
+if not (c and c.Parent) then return nil end
+local uis = game:GetService("UserInputService")
+local function gp(parent, name, className)
+    if typeof(parent) == "Instance" then
+        for i, v in pairs(parent:GetChildren()) do
+            if (v.Name == name) and v:IsA(className) then
+                return v
+            end
+        end
+    end
+    return nil
+end
+local Vector3_101 = Vector3.new(1, 0, 1)
+local netless_Y = Vector3.new(0, 25.1, 0)
+local function getNetlessVelocity(realPartVelocity)
+    local mag = realPartVelocity.Magnitude
+    if mag > 1 then
+        local unit = realPartVelocity.Unit
+        if (unit.Y > 0.25) or (unit.Y < -0.75) then
+            return realPartVelocity * (25.1 / realPartVelocity.Y)
+        end
+        realPartVelocity = unit * 125
+    end
+    return (realPartVelocity * Vector3_101) + netless_Y
+end
+local ws = game:GetService("Workspace")
+if not c:IsDescendantOf(ws) then return nil end
+local hat = gp(c, "Pet FlyAccessory", "Accessory")
+local handle = gp(hat, "Handle", "BasePart")
+if not handle then return "skill issue" end
+local hum = c:FindFirstChildOfClass("Humanoid")
+if not hum then return end
+local rs = game:GetService("RunService")
+local heartbeat, renderstepped = rs.Heartbeat, rs.RenderStepped
+pcall(c.Destroy, gp(handle, "AccessoryWeld", "Weld"))
+hum.WalkSpeed = 0
+local v3 = Vector3.new
+local v3_9e9 = v3(9e9, 9e9, 9e9)
+local pos = handle.Position
+local bg = nil
+local con = nil 
+con = renderstepped:Connect(function(delta)
+    if not handle then 
+        return con:Disconenct() 
+    end
+    ws.CurrentCamera.CameraSubject = handle
+    if not uis:GetFocusedTextBox() then
+        if uis:IsKeyDown(Enum.KeyCode.W) then
+            pos += ws.CurrentCamera.CFrame.LookVector * speed * delta
+        end
+        if uis:IsKeyDown(Enum.KeyCode.S) then
+            pos -= ws.CurrentCamera.CFrame.LookVector * speed * delta
+        end
+        if uis:IsKeyDown(Enum.KeyCode.D) then
+            pos += ws.CurrentCamera.CFrame.RightVector * speed * delta
+        end
+        if uis:IsKeyDown(Enum.KeyCode.A) then
+            pos -= ws.CurrentCamera.CFrame.RightVector * speed * delta
+        end
+    end
+    handle.Velocity = (pos - handle.Position) / delta
+    if not bg then
+        bg = Instance.new("BodyGyro")
+    end
+    bg.Name = tostring(math.random(69, 6969))
+    bg.D = 50
+    bg.P = 200
+    bg.MaxTorque = v3_9e9
+    bg.Parent = handle
+    bg.CFrame = ws.CurrentCamera.CFrame
+end)
+local con = nil
+con = heartbeat:Connect(function()
+    if not handle then
+        return con:Disconnect()
+    end
+    handle.Velocity = getNetlessVelocity(handle.Velocity)
+ if bg then bg:Destroy() bg = nil end
+end)
+handle.AncestryChanged:Connect(function()
+    if (handle.Parent ~= c) or (not c:IsDescendantOf(ws)) then
+        handle = nil
+    end
+end)
+end)
+
+NetlessSection:NewButton("Copier ID mouche", "Pour icehub", function()
+    setclipboard("6311978305")
+toclipboard("same for this")
 end)
