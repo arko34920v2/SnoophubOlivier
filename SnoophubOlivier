@@ -296,6 +296,11 @@ CodeSection:NewButton("Give me somes skittles 🤪🌈", "...", function()
 toclipboard("4239002503")
 end)
 
+CodeSection:NewButton("Midnhight rap", "...", function()
+	setclipboard("1840038982")
+toclipboard("1840038982")
+end)
+
 --HUB
 local Hub = Window:NewTab("Hub")
 local HubSection = Hub:NewSection("Hub")
@@ -573,6 +578,10 @@ end)
 
 TailleSection:NewButton("tete géante", "GROS CERVEAU", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/sysGhost-aka-BiKode/BigHeadV2/main/BigHeadV2-r15", true))()
+end)
+
+TailleSection:NewButton("OBJETS GEANT (RTHRO SEULEMENT)", "GIGA CORNES", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/DigitalityScripts/roblox-scripts/main/hat%20%2B%20head%20resize'))()
 end)
 
 TailleSection:NewButton("MicrobeLVL1", "Minuscule", function()
