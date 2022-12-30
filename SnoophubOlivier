@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("SNOOP HUB 2022 pour Oli le riche", "Ocean")
+local Window = Library.CreateLib("SNOOP HUB 2023 pour Oli le riche ", "Ocean")
 
 -- MAIN
 local Code = Window:NewTab("Code")
@@ -314,6 +314,11 @@ end)
 CodeSection:NewButton("MIDNIGHT", "...", function()
 	setclipboard("1840038982")
 toclipboard("1840038982")
+end)
+
+CodeSection:NewButton("Spy/Nox Song", "...", function()
+	setclipboard("6674211522")
+toclipboard("6674211522")
 end)
 
 --HUB
