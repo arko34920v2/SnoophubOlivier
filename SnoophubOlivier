@@ -10466,3 +10466,322 @@ end)
 ReverseSection:NewButton("Calisse!!!", "un essai", function()
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("!!!essilaC" ,"All")
 end)
+
+local Accesoires = Window:NewTab("Accesoires")
+local AccesoiresSection = Accesoires:NewSection("Accesoires")
+
+
+AccesoiresSection:NewButton("Cornes feu rouge (698,887 robux)", "un essai", function()
+    setclipboard("215718515")
+toclipboard("215718515")
+end)
+
+AccesoiresSection:NewButton("Cornes feu bleu (498,000 robux)", "un essai", function()
+    setclipboard("74891470")
+toclipboard("74891470")
+end)
+
+AccesoiresSection:NewButton("Cornes feu vert (300,000 robux)", "...", function()
+    setclipboard("1744060292")
+toclipboard("1744060292")
+end)
+
+AccesoiresSection:NewButton("Cornes feu jaune (OFFSALE 2015)", "un essai", function()
+    setclipboard("233705354")
+toclipboard("233705354")
+end)
+
+AccesoiresSection:NewButton("Crane fire B (600,000 robux) ", "un essai", function()
+    setclipboard("183468963")
+toclipboard("183468963")
+end)
+
+AccesoiresSection:NewButton("crane fire R (OFFSALE 2010)", "...", function()
+    setclipboard("1474657")
+toclipboard("1474657")
+end)
+
+AccesoiresSection:NewButton("crane fire V (OFFSALE 2013 ", "...", function()
+    setclipboard("132809431")
+toclipboard("132809431")
+end)
+
+AccesoiresSection:NewButton("Violet Valk (50,000 robux)", "...", function()
+    setclipboard("1402432199")
+toclipboard("1402432199")
+end)
+
+AccesoiresSection:NewButton("Blue Valk (219,212 robux)", "...", function()
+    setclipboard("1365767")
+toclipboard("1365767")
+end)
+
+AccesoiresSection:NewButton("Valk Ice (299,988 robux)", "...", function()
+    setclipboard("4390891467")
+toclipboard("4390891467")
+end)
+
+AccesoiresSection:NewButton("Blue valk ripped (4,006,969 robux)", "un essai", function()
+    setclipboard("1180433861")
+toclipboard("1180433861")
+end)
+
+AccesoiresSection:NewButton("Valk Emeraude (9,000,000 robux)", "un essai", function()
+    setclipboard("2830437685")
+toclipboard("2830437685")
+end)
+
+AccesoiresSection:NewButton("Valk Black (5,933,332 robux)", "...", function()
+    setclipboard("124730194")
+toclipboard("124730194")
+end)
+
+AccesoiresSection:NewButton("Valk lunettes (30,000 robux)", "un essai", function()
+    setclipboard("175134718")
+toclipboard("175134718")
+end)
+
+AccesoiresSection:NewButton("Valk Rouge (OFFSALE)", "...", function()
+    setclipboard("2274774123")
+toclipboard("2274774123")
+end)
+
+AccesoiresSection:NewButton(" [RED] Sparkles boss hat (OFFSALE)", "...", function()
+    setclipboard("173624749")
+toclipboard("173624749")
+end)
+
+AccesoiresSection:NewButton(" PURPLE] Sparkles boss hat (OFFSALE)", "...", function()
+    setclipboard("173624697")
+toclipboard("173624697")
+end)
+
+AccesoiresSection:NewButton(" [GREEN] Sparkles boss hat (OFFSALE)", "...", function()
+    setclipboard("173624561")
+toclipboard("173624561")
+end)
+
+AccesoiresSection:NewButton(" [GOLD] Sparkles boss hat (OFFSALE)", "...", function()
+    setclipboard("173624651")
+toclipboard("173624651")
+end)
+
+AccesoiresSection:NewButton(" [BLUE] Sparkles boss hat (OFFSALE)", "...", function()
+    setclipboard("173624602")
+toclipboard("173624602")
+end)
+
+AccesoiresSection:NewButton("8-BIT ROBUX (974 robux)", "...", function()
+    setclipboard("10159622004")
+toclipboard("10159622004")
+end)
+
+AccesoiresSection:NewButton("8-BIT HP barre (2,000 robux)", "...", function()
+    setclipboard("10159610478")
+toclipboard("10159610478")
+end)
+
+AccesoiresSection:NewButton("8-bit couronne (1,428 robux)", "...", function()
+    setclipboard("10159600649")
+toclipboard("10159600649")
+end)
+
+AccesoiresSection:NewButton("8-bit 1UP (650 robux)", "...", function()
+    setclipboard("10159606132")
+toclipboard("10159606132")
+end)
+
+AccesoiresSection:NewButton("8-bit chat (680 robux)", "...", function()
+    setclipboard("10159617728")
+toclipboard("10159617728")
+end)
+
+AccesoiresSection:NewButton("TRAVAUX", "...", function()
+    setclipboard("6909980547")
+toclipboard("6909980547")
+end)
+
+AccesoiresSection:NewButton("TRAVAUX", "...", function()
+    setclipboard("6943232352")
+toclipboard("6943232352")
+end)
+
+AccesoiresSection:NewButton("TRAVAUX", "...", function()
+    setclipboard("139235100")
+toclipboard("139235100")
+end)
+
+AccesoiresSection:NewButton("TRAVAUX", "...", function()
+    setclipboard("8222790838")
+toclipboard("8222790838")
+end)
+
+AccesoiresSection:NewButton("TRAVAUX", "...", function()
+    setclipboard("1839246711")
+toclipboard("1839246711")
+end)
+
+AccesoiresSection:NewButton("TRAVAUX", "...", function()
+    setclipboard("7516826765")
+toclipboard("7516826765")
+end)
+
+AccesoiresSection:NewButton("TRAVAUX", "...", function()
+    setclipboard("9071698640")
+toclipboard("9071698640")
+end)
+
+AccesoiresSection:NewButton("TRAVAUX", "...", function()
+    setclipboard("1312880397")
+toclipboard("1312880397")
+end)
+
+AccesoiresSection:NewButton("TRAVAUX", "...", function()
+    setclipboard("1837255793")
+toclipboard("1837255793")
+end)
+
+AccesoiresSection:NewButton("TRAVAUX", "...", function()
+    setclipboard("135308045")
+toclipboard("135308045")
+end)
+
+AccesoiresSection:NewButton("TRAVAUX", "...", function()
+    setclipboard("435240116")
+toclipboard("435240116")
+end)
+
+AccesoiresSection:NewButton("TRAVAUX", "...", function()
+    setclipboard("204074025")
+toclipboard("204074025")
+end)
+
+AccesoiresSection:NewButton("TRAVAUX", "...", function()
+    setclipboard("1571597070")
+toclipboard("1571597070")
+end)
+
+AccesoiresSection:NewButton("TRAVAUX", "...", function()
+    setclipboard("1837278308")
+toclipboard("1837278308")
+end)
+
+AccesoiresSection:NewButton("TRAVAUX", "...", function()
+    setclipboard("1839144981")
+toclipboard("1839144981")
+end)
+
+AccesoiresSection:NewButton("TRAVAUX", "...", function()
+    setclipboard("1840225614")
+toclipboard("1840225614")
+end)
+
+AccesoiresSection:NewButton("TRAVAUX", "...", function()
+    setclipboard("1840297374")
+toclipboard("1840297374")
+end)
+
+AccesoiresSection:NewButton("TRAVAUX", "...", function()
+    setclipboard("2006547142")
+toclipboard("2006547142")
+end)
+
+AccesoiresSection:NewButton("TRAVAUX", "...", function()
+    setclipboard("2473639958")
+toclipboard("2473639958")
+end)
+
+AccesoiresSection:NewButton("TRAVAUX", "...", function()
+    setclipboard("2976402600")
+toclipboard("2976402600")
+end)
+
+AccesoiresSection:NewButton("TRAVAUX", "...", function()
+    setclipboard("4572116031")
+toclipboard("4572116031")
+end)
+
+AccesoiresSection:NewButton("TRAVAUX", "...", function()
+    setclipboard("4809574295")
+toclipboard("4809574295")
+end)
+
+AccesoiresSection:NewButton("TRAVAUX", "...", function()
+    setclipboard("5216480240")
+toclipboard("5216480240")
+end)
+
+AccesoiresSection:NewButton("TRAVAUX", "...", function()
+    setclipboard("5681392704")
+toclipboard("5681392704")
+end)
+
+AccesoiresSection:NewButton("TRAVAUX", "...", function()
+    setclipboard("6783714255")
+toclipboard("6783714255")
+end)
+
+AccesoiresSection:NewButton("TRAVAUX", "...", function()
+    setclipboard("9094639541")
+toclipboard("9094639541")
+end)
+
+AccesoiresSection:NewButton("TRAVAUX", "...", function()
+    setclipboard("9123682910")
+toclipboard("9123682910")
+end)
+
+AccesoiresSection:NewButton("TRAVAUX", "...", function()
+    setclipboard("6943232352")
+toclipboard("6943232352")
+end)
+
+AccesoiresSection:NewButton("TRAVAUX", "...", function()
+    setclipboard("6808292148")
+toclipboard("6808292148")
+end)
+
+AccesoiresSection:NewButton("TRAVAUX", "...", function()
+    setclipboard("6817682704")
+toclipboard("6817682704")
+end)
+
+AccesoiresSection:NewButton("TRAVAUX", "...", function()
+    setclipboard("1836785943")
+toclipboard("1836785943")
+end)
+
+AccesoiresSection:NewButton("TRAVAUX", "...", function()
+    setclipboard("6658650660")
+toclipboard("6658650660")
+end)
+
+AccesoiresSection:NewButton("TRAVAUX", "...", function()
+    setclipboard("6896624865")
+toclipboard("6896624865")
+end)
+
+AccesoiresSection:NewButton("TRAVAUX", "...", function()
+	setclipboard("6435679021")
+toclipboard("6435679021")
+end)
+
+AccesoiresSection:NewButton("TRAVAUX", "...", function()
+	setclipboard("4239002503")
+toclipboard("4239002503")
+end)
+
+AccesoiresSection:NewButton("TRAVAUX", "...", function()
+	setclipboard("7702262254")
+toclipboard("7702262254")
+end)
+
+AccesoiresSection:NewButton("TRAVAUX", "...", function()
+	setclipboard("6834218705")
+toclipboard("6834218705")
+end)
+
+AccesoiresSection:NewButton("TRAVAUX", "...", function()
+	setclipboard("1840038982")
+toclipboard("1840038982")
+end)
