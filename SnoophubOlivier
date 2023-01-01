@@ -10506,19 +10506,9 @@ AccesoiresSection:NewButton("[FEU] crane fire V (OFFSALE 2013 ", "...", function
 toclipboard("132809431")
 end)
 
-AccesoiresSection:NewButton("[PAILLETES] RED Sparkles boss hat (OFFSALE)", "...", function()
-    setclipboard("173624749")
-toclipboard("173624749")
-end)
-
 AccesoiresSection:NewButton("[PAILLETES] PURPLE Sparkles boss hat (OFFSALE)", "...", function()
     setclipboard("173624697")
 toclipboard("173624697")
-end)
-
-AccesoiresSection:NewButton("[PAILLETES] GREEN Sparkles boss hat (OFFSALE)", "...", function()
-    setclipboard("173624561")
-toclipboard("173624561")
 end)
 
 AccesoiresSection:NewButton("[PAILLETES] GOLD Sparkles boss hat (OFFSALE)", "...", function()
@@ -10564,11 +10554,6 @@ end)
 AccesoiresSection:NewButton("[ANIME] Sac de robux (OFFSALE)", "...", function()
     setclipboard("9243927199")
 toclipboard("9243927199")
-end)
-
-AccesoiresSection:NewButton("[ANIME] Flammes maudites dorées (OFFSALE)", "...", function()
-    setclipboard("8666557244")
-toclipboard("8666557244")
 end)
 
 AccesoiresSection:NewButton("Violet Valk (50,000 robux)", "...", function()
