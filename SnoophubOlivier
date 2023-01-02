@@ -10556,6 +10556,11 @@ AccesoiresSection:NewButton("[ANIME] Sac de robux (OFFSALE)", "...", function()
 toclipboard("9243927199")
 end)
 
+AccesoiresSection:NewButton("[ANIME] Flammes maudites dorées (OFFSALE)", "...", function()
+    setclipboard("8666557244")
+toclipboard("8666557244")
+end)
+
 AccesoiresSection:NewButton("Violet Valk (50,000 robux)", "...", function()
     setclipboard("1402432199")
 toclipboard("1402432199")
@@ -10739,6 +10744,66 @@ end)
 AccesoiresSection:NewButton("dominus déssiné sur carton (16,500 robux)", "...", function()
     setclipboard("151789690")
 toclipboard("151789690")
+end)
+
+AccesoiresSection:NewButton("ClockWork Diamant (5,000,000 robux)", "...", function()
+	setclipboard("323417812")
+toclipboard("323417812")
+end)
+
+AccesoiresSection:NewButton("ClockWork Toumaline (1,450,000 robux)", "...", function()
+	setclipboard("315549204")
+toclipboard("315549204")
+end)
+
+AccesoiresSection:NewButton("ClockWork Grenat (899,996 robux)", "...", function()
+	setclipboard("583635712")
+toclipboard("583635712")
+end)
+
+AccesoiresSection:NewButton("ClockWork Rubis (700,000 robux)", "...", function()
+	setclipboard("323417812")
+toclipboard("323417812")
+end)
+
+AccesoiresSection:NewButton("ClockWork Cornaline (666,666 robux)", "...", function()
+	setclipboard("323417812")
+toclipboard("323417812")
+end)
+
+AccesoiresSection:NewButton("ClockWork Emeraude (547,000 robux)", "...", function()
+	setclipboard("323417812")
+toclipboard("323417812")
+end)
+
+AccesoiresSection:NewButton("ClockWork Améthyste (509,999 robux)", "...", function()
+	setclipboard("323417812")
+toclipboard("323417812")
+end)
+
+AccesoiresSection:NewButton("ClockWork Saphir (440,999 robux)", "...", function()
+	setclipboard("323417812")
+toclipboard("323417812")
+end)
+
+AccesoiresSection:NewButton("ClockWork Azurite (300,000 robux)", "...", function()
+	setclipboard("323417812")
+toclipboard("323417812")
+end)
+
+AccesoiresSection:NewButton("ClockWork Kunzite (200,000 robux)", "...", function()
+	setclipboard("323417812")
+toclipboard("323417812")
+end)
+
+AccesoiresSection:NewButton("ClockWork Ambre (190,000 robux)", "...", function()
+	setclipboard("323417812")
+toclipboard("323417812")
+end)
+
+AccesoiresSection:NewButton("ClockWork Amazonite (148,000 robux)", "...", function()
+	setclipboard("323417812")
+toclipboard("323417812")
 end)
 
 AccesoiresSection:NewButton("Bientot...", "...", function()
