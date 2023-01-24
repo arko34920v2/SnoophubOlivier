@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("SNOOP HUB 2023 du Tryharder Oli", "BloodTheme")
+local Window = Library.CreateLib("SNOOP HUB 2023 du tryharder Oli", "Ocean")
 
 -- MAIN
 local Code = Window:NewTab("Code")
@@ -121,9 +121,9 @@ CodeSection:NewButton("aaaaa zo", "...", function()
 toclipboard("8222782975")
 end)
 
-CodeSection:NewButton("Electric City", "...", function()
-    setclipboard("1838659275")
-toclipboard("1838659275")
+CodeSection:NewButton("eminem ressemblance", "...", function()
+    setclipboard("1841374584")
+toclipboard("1841374584")
 end)
 
 CodeSection:NewButton("Harx is fury😡", "...", function()
@@ -5743,6 +5743,7 @@ local ManipSection = Manip:NewSection("Manip")
 
 
 ManipSection:NewButton("Load ControlXploit", "gravité normale", function()
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Tour de contrôle prête, Entrez le nom de votre allié." ,"All")
     loadstring(game:HttpGet("https://raw.githubusercontent.com/arko34920v2/ControlXploit/main/ControlXploit", true))()
 end)
 
